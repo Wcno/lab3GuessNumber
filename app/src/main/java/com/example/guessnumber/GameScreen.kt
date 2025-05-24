@@ -60,7 +60,7 @@ fun GameScreen(onRestart: () -> Unit) {
             onClick = {
                 val numeroUsuario = entrada.toIntOrNull()
                 if (numeroUsuario == null || numeroUsuario !in 0..100) {
-                    pista = "Número inválido. Ingresa un valor entre 0 y 100."
+                    pista = "Número inválido. Ingresa un valor entre 0 y 100. y 1 min"
                     return@Button
                 }
 
